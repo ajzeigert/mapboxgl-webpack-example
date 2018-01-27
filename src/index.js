@@ -1,4 +1,5 @@
 import mapboxgl from 'mapbox-gl'
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZXdpbGxpYW1zb24iLCJhIjoibzRCYUlGSSJ9.QGvlt6Opm5futGhE5i-1kw';
 var map = new mapboxgl.Map({
@@ -7,4 +8,3 @@ var map = new mapboxgl.Map({
     center: [-74.50, 40], // starting position
     zoom: 9 // starting zoom
 });
-
